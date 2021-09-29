@@ -67,8 +67,8 @@ h2 {
 }
 
 .error {
-  background-color: #f00;
-  color: #fff;
+  background-color: yellow;
+  color: #000;
   position: relative;
   left: 50%;
   -webkit-transform: translate(-50%);
@@ -81,6 +81,7 @@ h2 {
   margin-top: 10%;
   height: auto;
   bottom: 5vh;
+  border-radius: 20px;
 }
 
 .error h3 {
