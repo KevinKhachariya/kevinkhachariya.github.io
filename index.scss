@@ -1,0 +1,109 @@
+:root {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+                     
+  }
+  
+
+  body{
+    background-color: #2C394B;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  h1,
+  h2 {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .main-heading {
+    font-family: "Dancing Script";
+    font-size: 2em;
+    background-color: #082032;
+    color: #fff;
+    display: block;
+    margin: 0;
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 3px solid #eaeaea;
+    
+  }
+  
+  .evolve-heading, .validate-heading     {
+    font-family: 'Open sans';
+    font-size: 1em;
+    background-color: #FF4C29;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.75em 1.5em;
+    border-radius: 2px;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    text-align: center;
+  }
+
+  .evolve-heading{
+      margin-top: 1em;
+  }
+  
+  .validate-heading{
+      margin-top: 1em;
+  }
+  
+  .validate-heading a {
+    color: #000;
+  }
+  
+  .footer {
+    position: absolute;
+    width: 100vw;
+    background: grey;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+
+  }
+  
+  .footer a {
+    color: #000;
+    display: inline-block;
+    
+
+    
+  }
+
+  .error{
+      background-color: #f00;
+      color: #fff;
+      position: relative;
+      left:50%;
+      transform: translate(-50%);
+      max-width: 25%;
+      max-height: auto; 
+      border: 3px solid #000;
+      font-weight: 600;
+      text-align: left;
+      margin-top: 10%;
+      height: auto;
+      bottom: 5vh;
+      
+      
+      
+  }
+
+  .error h3{
+      color:#000;
+      text-align: center;
+  }
+
+  .centeraligned{
+      text-align: center;
+  }
+
+ 
+
+
+  /*# sourceMappingURL=index.css.map */
