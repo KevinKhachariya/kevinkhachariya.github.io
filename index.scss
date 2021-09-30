@@ -18,12 +18,16 @@
     padding: 0;
     
   }
+
+  strong{
+    color:#FF4C29;
+  }
   
   .main-heading {
     font-family: "Dancing Script";
     font-size: 2em;
     background-color: #082032;
-    color: #fff;
+    color: #FF4C29;
     display: block;
     margin: 0;
     padding: 0.5em;
@@ -35,26 +39,27 @@
   .evolve-heading, .validate-heading {
     font-family: 'Open sans';
     font-size: 1em;
-    background-color: #FF4C29;
     display: inline-block;
     margin: 0 auto;
     padding: 0.75em 1.5em;
     border-radius: 2px;
     border-bottom: 3px solid #fff;
-    color: #fff;
+    
     text-align: center;
   }
 
   .evolve-heading{
+    color: #fff;
       margin-top: 1em;
   }
   
   .validate-heading{
+    color: #fff;
       margin-top: 1em;
   }
   
   .validate-heading a {
-    color: #000;
+    color: #FF4C29;
   }
   
   .footer {
@@ -75,10 +80,41 @@
 
   .centeraligned{
       text-align: center;
+  }
 
+  .centeraligned a{
+    text-decoration: none;
+  }
+
+  .navbar{
+    background-color: #082032;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+     
+    
+  }
+
+  .navbar a{
+    color:#fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 1em;
+    border-bottom: 3px solid #fff ;
+    
+
+  }
+  .navbar a:focus,
+  .navbar a:hover{
+    border-bottom: 3px solid #FF4C29 ;
+  }
+
+  .navlinks{
+     padding: 0 1em;
   }
 
  
 
 
-  /*# sourceMappingURL=index.css.map */
+  /*# sourceMappingURL=index.css.map */ 
