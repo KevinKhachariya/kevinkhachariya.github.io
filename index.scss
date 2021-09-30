@@ -32,7 +32,7 @@
     
   }
   
-  .evolve-heading, .validate-heading     {
+  .evolve-heading, .validate-heading {
     font-family: 'Open sans';
     font-size: 1em;
     background-color: #FF4C29;
@@ -71,37 +71,11 @@
     color: #000;
     display: inline-block;
     
-
-    
-  }
-
-  .error{
-      background-color: yellow;
-      color: #000;
-      position: relative;
-      left:50%;
-      transform: translate(-50%);
-      max-width: 25%;
-      max-height: auto; 
-      border: 3px solid #000;
-      font-weight: 600;
-      text-align: left;
-      margin-top: 10%;
-      height: auto;
-      bottom: 5vh;
-      border-radius: 20px;
-      
-      
-      
-  }
-
-  .error h3{
-      color:#000;
-      text-align: center;
   }
 
   .centeraligned{
       text-align: center;
+
   }
 
  
